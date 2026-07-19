@@ -37,11 +37,11 @@
 ## Hosted Personal Profile Website
 
 Live Link:
-(To be updated after deployment)
+https://trushita-ns18.github.io/fsdl-practical-assignments/
 
 ---
 
 ## GitHub Repository
 
 Repository Link:
-(To be updated after pushing to GitHub)
+https://github.com/TRUSHITA-NS18/fsdl-practical-assignments
