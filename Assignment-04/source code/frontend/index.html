@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Smart City Traffic Dashboard</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="dashboard">
+        <header>
+          <h1>🚦Smart City Traffic Dashboard</h1>
+
+          <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter city name" />
+            <button onclick="fetchTraffic()">Search</button>
+          </div>
+
+          <div id="greeting">Urban Planning Dashboard</div>
+        </header>
+
+        <section class="current-weather">
+          <div>
+            <h2 id="cityName">--</h2>
+            <p>Total Traffic Records</p>
+            <h1 id="totalCount">--</h1>
+            <small id="updated">Last updated: --</small>
+          </div>
+        </section>
+
+        <!-- City Image (Replaces Map) -->
+        <div class="city-image">
+          <img
+            id="cityImg"
+            src=""
+            alt="City Image"
+            style="
+              width: 100%;
+              height: 300px;
+              border-radius: 12px;
+              object-fit: cover;
+              margin-top: 20px;
+            "
+          />
+        </div>
+
+        <div class="charts">
+          <div class="chart-card">
+            <h3>Vehicles by Type</h3>
+            <canvas id="barChart"></canvas>
+          </div>
+
+          <div class="chart-card">
+            <h3>Traffic Over Time</h3>
+            <canvas id="lineChart"></canvas>
+          </div>
+
+          <div class="chart-card">
+            <h3>Congestion Levels</h3>
+            <canvas id="pieChart"></canvas>
+          </div>
+
+          <div class="chart-card">
+            <h3>Day Wise Traffic</h3>
+            <canvas id="doughnutChart"></canvas>
+          </div>
+
+          <div class="chart-card">
+            <h3>Vehicle Comparison Radar</h3>
+            <canvas id="radarChart"></canvas>
+          </div>
+
+          <div class="chart-card">
+            <h3>Traffic Count by Time</h3>
+            <canvas id="timeBarChart"></canvas>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

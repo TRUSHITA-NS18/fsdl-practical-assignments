@@ -1,0 +1,77 @@
+/* ================= SHOP PAGE ONLY ================= */
+
+/* Page background */
+body {
+  background: linear-gradient(180deg, #eef4ff, #f9fbff);
+}
+
+/* Main glass container */
+.container.my-5 {
+  background: rgba(255, 255, 255, 0.471);
+  backdrop-filter: blur(12px);
+  border-radius: 24px;
+  padding: 45px 40px;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15);
+  max-width: 1200px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+
+/* Search box enhancement */
+.search-box {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 35px;
+  padding: 8px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Category buttons */
+.container.my-5 .btn-outline-primary {
+  border-radius: 25px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.container.my-5 .btn-outline-primary:hover {
+  transform: scale(1.08);
+}
+
+/* Product cards */
+#productList .product-card {
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.18);
+  transition: 0.4s ease;
+}
+
+#productList .product-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.28);
+}
+
+/* Product images */
+#productList img {
+  height: 240px;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* Product price */
+#productList .fw-bold {
+  color: #1e3c72;
+  font-size: 18px;
+}
+
+/* Buttons inside product card */
+#productList .btn {
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+/* Navbar shadow separation */
+.custom-navbar {
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,70 @@
+/* ================= CART PAGE ONLY ================= */
+
+body {
+  background: linear-gradient(180deg, #e8f1ff, #f9fbff);
+}
+
+/* Center glass container */
+.container.my-5 {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  border-radius: 22px;
+  padding: 40px 35px;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15);
+  max-width: 1200px;
+}
+
+/* Cart heading */
+.container.my-5 h2 {
+  font-weight: 700;
+  color: #1e3c72;
+}
+
+/* Product cards inside cart */
+#cartItems .card {
+  border-radius: 18px;
+  border: none;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  transition: 0.4s ease;
+}
+
+#cartItems .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25);
+}
+
+/* Cart product image */
+#cartItems img {
+  height: 230px;
+  object-fit: cover;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+/* Buy button section */
+.container .btn-success {
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  border: none;
+  border-radius: 35px;
+  padding: 14px 35px;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  transition: 0.3s ease;
+}
+
+.container .btn-success:hover {
+  transform: scale(1.08);
+}
+
+/* Checkbox alignment */
+.form-check-input {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+/* Navbar separation */
+.custom-navbar {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}

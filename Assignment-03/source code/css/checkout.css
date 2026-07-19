@@ -1,0 +1,80 @@
+/* ================= CHECKOUT PAGE ONLY ================= */
+
+body {
+  background: linear-gradient(180deg, #eef4ff, #f9fbff);
+}
+
+/* Center glass container */
+.container.my-5 {
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(14px);
+  border-radius: 26px;
+  padding: 45px 40px;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.18);
+  max-width: 1100px;
+}
+
+/* Cards */
+.card {
+  border-radius: 20px;
+  border: none;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+}
+
+/* Card headers */
+.card-header {
+  border-radius: 20px 20px 0 0;
+  font-weight: 600;
+}
+
+.card-header i {
+  margin-right: 8px;
+}
+
+/* Order list */
+#orderItems div {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* Total price */
+#totalPrice {
+  color: #e53935;
+}
+
+/* Input fields */
+.order-input {
+  border-radius: 14px;
+  padding: 12px 14px;
+  border: 1px solid #dce3f1;
+}
+
+.order-input:focus {
+  box-shadow: none;
+  border-color: #2f7fe6;
+}
+
+/* Place order button */
+.card-footer .btn-success {
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  border: none;
+  border-radius: 35px;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.card-footer .btn-success:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+#orderItems button {
+  min-width: 32px;
+}
+
+#orderItems span {
+  min-width: 20px;
+  text-align: center;
+}

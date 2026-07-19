@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+  background: linear-gradient(to bottom, #f5f7fa, #e4ecf7);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ================= NAVBAR ================= */
+.custom-navbar {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #ffeb3b !important;
+}
+
+/* ================= HERO SLIDER ================= */
+.carousel-item {
+  height: 80vh;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.carousel-caption {
+  background: rgba(0,0,0,0.45);
+  border-radius: 12px;
+  padding: 30px;
+}
+
+/* ================= PRODUCT CARD ================= */
+.product-card {
+  border-radius: 16px;
+  border: none;
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.85);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  transition: 0.4s ease;
+}
+
+.product-card img {
+  height: 240px;
+  object-fit: cover;
+}
+
+.product-card:hover {
+  transform: translateY(-12px) scale(1.03);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.25);
+}
+
+.offer-text {
+  color: #ff5722;
+  font-weight: 600;
+}
+
+/* ================= BUTTONS ================= */
+.btn {
+  border-radius: 25px;
+}
+
+.btn-success {
+  background: linear-gradient(to right,rgba(0, 238, 255, 0.526), #185a9d);
+  border: none;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #667eea,blue);
+  border: none;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* ================= SEARCH ================= */
+.search-box {
+  max-width: 520px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* ================= CART ================= */
+.cart-card {
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* ================= FORMS ================= */
+.form-control {
+  border-radius: 12px;
+}
+/* ================= FOOTER ================= */
+
+.fashion-footer {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: #ffffff;
+}
+
+.fashion-footer h4,
+.fashion-footer h5 {
+  color: #ffffff;
+}
+
+.fashion-footer p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* Inline footer links – FORCE WHITE */
+
+.footer-inline-links {
+  font-size: 14px;
+}
+
+.footer-inline-links a {
+  color: #ffffff !important;
+  text-decoration: none;
+  margin: 0 6px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.footer-inline-links span {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-inline-links a:hover {
+  color: #ffc107 !important;
+  text-decoration: underline;
+}
+
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 18px;
+  margin-right: 12px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ffc107;
+}
+
+.fashion-footer .border-top {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
